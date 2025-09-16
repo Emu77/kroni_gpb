@@ -4,7 +4,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 
-export default function Impressum(): JSX.Element {
+export default function Impressum()  {
   return (
     <Layout>
       <section className="container mx-auto px-6 py-16 flex-grow">

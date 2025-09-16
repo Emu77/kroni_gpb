@@ -4,7 +4,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 
-export default function Kontakt(): JSX.Element {
+export default function Kontakt() {
   return (
     <Layout>
       <section className="container mx-auto px-6 py-12 flex-grow">

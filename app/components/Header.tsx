@@ -4,7 +4,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function Header(): JSX.Element {
+export default function Header() {
   return (
     <header className="container mx-auto px-6 py-8 flex items-center justify-between">
       <div className="flex items-center gap-4">
