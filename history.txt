@@ -1,0 +1,592 @@
+    1  history
+    2  dir
+    3  cd bilder
+    4  cd Bilder
+    5  dir
+    6  history
+    7  cd ..
+    8  la
+    9  cd ..
+   10  la
+   11  cd ..
+   12  la
+   13  cd home
+   14  dir
+   15  cd ..
+   16  ls
+   17  man
+   18  ls -lisa
+   19  history
+   20  cd /opt/
+   21  cd ~
+   22  mkdir -p /home/codi/gbpstinkt
+   23  sudo mkdir -p /home/codi/gbpstinkt
+   24  ls
+   25  cd ~
+   26  cd /home
+   27  ls
+   28  cd codi
+   29  rm gbpstinkt
+   30  ls
+   31  cd ~
+   32  pwd
+   33  clear
+   34  pwd
+   35  cd ..
+   36  history
+   37  cd --help
+   38  history
+   39  ls -lisa
+   40  cd ~
+   41  ls -lisa
+   42  history >> befehle.txt
+   43  befehle.txt
+   44  ls
+   45  befehle.txt
+   46  clear
+   47  ls
+   48  nano befehle.txt
+   49  cat befehle.txt
+   50  wc --help
+   51  cat kjokj lkjegvpekl fekll öljöloj
+   52  grep --help
+   53  ls --help
+   54  sl
+   55  cd /var/www/html/
+   56  ls
+   57  ls wordpress/
+   58  cat wordpress/wp-config.php 
+   59  ping http://localhost/wordpress
+   60  curl http://localhost/wordpress
+   61  top
+   62  ps aux
+   63  curl --help
+   64  sudo apt install curl
+   65  rsync --help
+   66  whois kronisoft.net
+   67  id
+   68  whois --help
+   69  sudo apt install whois
+   70  whois www.kronisoft.net
+   71  whois www.kronisoft.NET
+   72  whois kronisoft.net
+   73  whois bio-gut.de
+   74  tree 
+   75  sudo apt  install tree
+   76  tree
+   77  free -h
+   78  cd /
+   79  free -h
+   80  tree
+   81  whois kronisoft.net
+   82  clear
+   83  cd   /var/www/html/
+   84  cvd wordpress/
+   85  cd wordpress/
+   86  ls
+   87  cat index.php 
+   88  cat wp-config.php 
+   89  cd /etc/apache2/
+   90  grep -rn wordpress
+   91  sudo vim http://localhost/wordpress/
+   92  sudo vim sites-available/wordpress.conf 
+   93  sudo nano sites-available/wordpress.conf 
+   94  sudo service apache2 restart
+   95  cat sites-available/wordpress.conf
+   96  apache2 -v
+   97  httpd -v
+   98  mysql --version
+   99  php -v
+  100  sudo a2ensite wordpress.conf
+  101  sudo systemctl reload apache2
+  102  sudo systemctl status apache2
+  103  history
+  104  sudo apt update && sudo apt upgrade -y~
+  105  sudo apt install apache2 -y
+  106  sudo systemctl start apache2
+  107  sudo systemctl enable apache2
+  108  sudo apt install mysql-server -y
+  109  sudo mysql_secure_installation
+  110  sudo mysql -u root -p
+  111  sudo apt install php php-mysql libapache2-mod-php php-cli php-cgi php-gd -y
+  112  cd /tmp
+  113  wget https://wordpress.org/latest.tar.gz
+  114  tar -xvzf latest.tar.gz
+  115  sudo mv wordpress /var/www/html/
+  116  sudo chown -R www-data:www-data /var/www/html/wordpress
+  117  sudo chmod -R 755 /var/www/html/wordpress
+  118  cd /var/www/html/wordpress
+  119  cp wp-config-sample.php wp-config.php
+  120  nano wp-config.php
+  121  sudo nano wp-config.php
+  122  sudo nano /etc/apache2/sites-available/wordpress.conf
+  123  sudo a2ensite wordpress.conf
+  124  sudo a2enmod rewrite
+  125  sudo systemctl restart apache2
+  126  ping http://localhost/wordpress/
+  127  php -v
+  128  ls
+  129  cat wp-config.php 
+  130  cd /tmp/
+  131  wget http://localhost/wordpress/
+  132  apt-get install shutter
+  133  sudo apt-get install shutter
+  134  ls
+  135  cd ~
+  136  ls
+  137  cd /etc
+  138  ls
+  139  cd cronctb
+  140  cd croncab
+  141  cd cronc.d
+  142  cd /var/log
+  143  ls
+  144  cd ..
+  145  cd ~
+  146  ls
+  147  cd Dokumente
+  148  ls
+  149  cd ..
+  150  npx create-next-app@latest kronas
+  151  sudo apt install npm
+  152  noce -version
+  153  node -version
+  154  # Install latest LTS
+  155  nvm install --lts
+  156  nvm use --lts
+  157  nvm alias default node
+  158  # Repository hinzufügen
+  159  curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+  160  # Node.js installieren/aktualisieren
+  161  sudo apt-get install -y nodejs
+  162  df -h
+  163  echo "# kroni_gpb" >> README.md
+  164  git init
+  165  git add README.md
+  166  git commit -m "first commit"
+  167  git branch -M main
+  168  git remote add origin https://github.com/emu77/kroni_gpb.git
+  169  git push -u origin main
+  170  echo "# kroni_gpb" >> README.md
+  171  git init
+  172  git add README.md
+  173  git commit -m "first commit"
+  174  git branch -M main
+  175  git remote add origin https://github.com/emu77/kroni_gpb.git
+  176  git push -u origin main
+  177  git config --global user.email "e.kronas@kronisoft.net"
+  178  git config --global user.name "E. Kronas"
+  179  echo "# kroni_gpb" >> README.md
+  180  git init
+  181  git add README.md
+  182  git commit -m "first commit"
+  183  git branch -M main
+  184  git remote add origin https://github.com/emu77/kroni_gpb.git
+  185  git push -u origin main
+  186  ssh-keygen -t ed25519 -C "emu@kronisoft.net"
+  187  cd .ssh
+  188  ls -a
+  189  cat id_ed25519.pub
+  190  ssh -T git@github.pub.com
+  191  ssh -T git@github.com
+  192  git remote add origin https://github.com/emu77/kroni_gpb.git
+  193  git branch -M main
+  194  git push -u origin main
+  195  git remote add origin https://github.com/emu77/kroni_gpb.git
+  196  cd ..
+  197  cd Downloads
+  198  git remote add origin https://github.com/emu77/kroni_gpb.git
+  199  git branch -M main
+  200  git push -u origin main
+  201  git status
+  202  git add
+  203  git status
+  204  ls
+  205  cd projekt
+  206  cd ../projekt
+  207  git add
+  208  git status
+  209  git add
+  210  git add .
+  211  cd ..
+  212  npm run dev
+  213  ls
+  214  history
+  215  npm -v
+  216  curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+  217  source ~/.bashrc   # oder: source ~/.zshrc
+  218  npm -v
+  219  nvm install node
+  220  node -v
+  221  npm -v
+  222  npm run dev
+  223  npx create-next-app@latest meine-webseite
+  224  npx create-next-app@latest kronis
+  225  npx create-next-app@latest kroni_gpb
+  226  ls
+  227  cd kroni_gpb
+  228  npm run dev
+  229  cd /tmp/
+  230  git clone git@github.com:emu77/kroni_gpb.git
+  231  cd -
+  232  npm run dev
+  233  git status
+  234  cd src/app/
+  235  git status
+  236  git add .
+  237  git status
+  238  git commit -m "MOD change page.tsx to new layout" page.tsx 
+  239  git push
+  240  cd ..
+  241  ls
+  242  ls -lisa
+  243  cat README.md 
+  244  git init
+  245  cat .git/config 
+  246  git remote add git@github.com:emu77/kroni_gpb.git
+  247  git remote add origin git@github.com:emu77/kroni_gpb.git
+  248  git push
+  249  cat .git/config 
+  250  git push -u origin master
+  251  git push -u origin main
+  252  git branch --all
+  253  git branch -M main
+  254  git push -u origin main
+  255  git log
+  256  git status
+  257  git add src/
+  258  git status
+  259  git commit -m "ADD src folder" src/
+  260  git branch -M main
+  261  git push -u origin main
+  262  git pull origin main
+  263  git config pull.rebase false
+  264  git pull origin main
+  265  git pull origin main --allow-unrelated-histories
+  266  git status
+  267  git add README.md 
+  268  guit commit -m "MOD change README Datei" README.md 
+  269  git commit -m "MOD change README Datei" README.md 
+  270  git pull origin main --allow-unrelated-histories
+  271  git status
+  272  git stash
+  273  giot merge --abort
+  274  git merge --abort
+  275  git pull origin main --allow-unrelated-histories
+  276  git checkout --ours README.md
+  277  git add README.md 
+  278  git commit -m "Merge Konflikt in README.md gelöst – lokale Version behalten"
+  279  git push origin main
+  280  npm run dev
+  281  git status
+  282  git diff src/app/page.tsx
+  283  git push
+  284  git commit
+  285  grep ssh
+  286  cd ..
+  287  ls projekt/
+  288  ls schule/
+  289  ls schule/linux/
+  290  ls schule/linux/übungen/
+  291  npm run dev
+  292  find ssh
+  293  find -type d -name .ssh
+  294  ls -lisa
+  295  tar -cvf archiv.tar .ssh
+  296  ls -lisa
+  297  cd .ssh
+  298  ls
+  299  tar -cvf archiv.tar .ssh
+  300  zip --help
+  301  cd ..
+  302  ls
+  303  ls kronis
+  304  cd kronis
+  305  npm run dev
+  306  node -v
+  307  npm -v
+  308  npm install
+  309  npm run dev
+  310  ls
+  311  history
+  312  nano
+  313  ls
+  314  cd app
+  315  ls
+  316  nano page.tsx
+  317  npm run dev
+  318  ls
+  319  cd app
+  320  ls
+  321  #nano page.tsx
+  322  nano page.tsx
+  323  ls
+  324  cd kronis
+  325  ls
+  326  npm run dev
+  327  ls
+  328  cd app
+  329  nano page.tsx
+  330  npm run dev
+  331  history
+  332  npm run dev
+  333  nano page.tsx
+  334  git status
+  335  git commit
+  336  git status
+  337  ls
+  338  cd ..
+  339  ls -lisa
+  340  mv .git ~/kronis/
+  341  cd -
+  342  git status
+  343  git add .
+  344  git commit -m "changes" .
+  345  git push
+  346  npm run dev
+  347  ls
+  348  cd kronis
+  349  ls
+  350  npm run dev
+  351  cd app
+  352  ls
+  353  cd component
+  354  cd components
+  355  ls
+  356  nano Footer.tsx
+  357  nano Layot.tsx
+  358  cd ..
+  359  nano pade.tsx
+  360  nano page.tsx
+  361  cd impressum
+  362  nano page.tsx
+  363  cd ../kontakt
+  364  nano page.tsx
+  365  cd../components
+  366  cd ../components
+  367  nano pag.tsx
+  368  ls
+  369  cd kronis
+  370  npm run dev
+  371  git status
+  372  git diff app/components/Header.tsx
+  373  git log
+  374  git reset --hard 5ab9ae5fb9174391092ffcacd290122a00725e7b
+  375  git status
+  376  npm run dev
+  377  nano  app/components/Header.tsx
+  378  cd components
+  379  cd app
+  380  cd components
+  381  nano footer.tsx
+  382  ls
+  383  nano Footer.tsx
+  384  nano Header.tsx
+  385  cd ..
+  386  nano page.tsx
+  387  cd -
+  388  ls
+  389  nano Header.tsx
+  390  cd ..
+  391  nano page.tsx
+  392  git status
+  393  git add impressum/page.tsx kontakt/page.tsx page.tsx components/
+  394  git status
+  395  git commite -m "Neue Dateien hochgeschickt" impressum/page.tsx kontakt/page.tsx page.tsx components/Footer.tsx components/Header.tsx components/Layout.tsx
+  396  git comit -m "Neue Dateien hochgeschickt" impressum/page.tsx kontakt/page.tsx page.tsx components/Footer.tsx components/Header.tsx components/Layout.tsx
+  397  git commit -m "Neue Dateien hochgeschickt" impressum/page.tsx kontakt/page.tsx page.tsx components/Footer.tsx components/Header.tsx components/Layout.tsx
+  398  git push
+  399  git push --set-upstream origin main
+  400  git push
+  401  git push --set-upstream origin main
+  402  git push
+  403  git push --set-upstream origin main
+  404  cd ..
+  405  cd .git/
+  406  nano config 
+  407  git push
+  408  git push --set-upstream origin main
+  409  git pull
+  410  cd ..
+  411  git pull
+  412  git branch --set-upstream-to=origin/<Branch> main
+  413  git pull
+  414  git pull origin main
+  415  git config pull.rebase false
+  416  git pull origin main
+  417  git pull origin main --allow-unrelated-histories
+  418  git push origin main
+  419  dit status
+  420  git status
+  421  npm run build
+  422  vim app/components/Footer.tsx 
+  423  nano app/components/Footer.tsx 
+  424  npm run build
+  425  cat app/components/Footer.tsx 
+  426  nano app/components/Footer.tsx 
+  427  npm run build
+  428  nano app/components/Footer.tsx 
+  429  nano app/components/Header.tsx 
+  430  npm run build
+  431  nano app/components/Layout.tsx 
+  432  npm run build
+  433  cat app/components/Layout.tsx 
+  434  nano app/components/Layout.tsx 
+  435  npm run build
+  436  nano app/impressum/page.tsx 
+  437  npm run build
+  438  nano app/kontakt/page.tsx 
+  439  npm run build
+  440  nano app/page.tsx 
+  441  npm run build
+  442  cat app/page.tsx 
+  443  nano app/page.tsx 
+  444  npm run build
+  445  rm -rf app/page_*
+  446  ls app
+  447  npm run build
+  448  git status
+  449  git commit -m "REFACTOR deleting JSXElements" app
+  450  git status
+  451  git log
+  452  git push
+  453  git push --set-upstream origin main
+  454  git push
+  455  nano app/components/header.tsx
+  456  ls
+  457  cd app
+  458  ls
+  459  cd components
+  460  ls
+  461  nano Header.tsx 
+  462  cd ..
+  463  npm run dev
+  464  node -v
+  465  npm run build
+  466  nano Dockerfile 
+  467  ls
+  468  cat Dockerfile
+  469  rm -rf Dockerfile.save 
+  470  ls
+  471  nano Dockerfile 
+  472  git status
+  473  cat .gitignore 
+  474  nano .gitignore
+  475  cat Dockerfile
+  476  git status
+  477  git push
+  478  git status
+  479  ls
+  480  mv Dockerfile Dockerfile.bak
+  481  touch Dockerfile
+  482  git status
+  483  mv Dockerfile.bak Dockerfile
+  484  git status
+  485  git log
+  486  git show 2acb953ff71444c97106e23776bdca44cdca1847
+  487  git push origin main
+  488  docker run -p 3000:3000 kroni-gpb
+  489  git status
+  490  ls
+  491  cd app
+  492  ls
+  493  git push app/components/Header.tsx
+  494  cd components
+  495  nano Header.tsx
+  496  git push app/components/Header.tsx
+  497  git push Header.tsx
+  498  cd ..
+  499  git push
+  500  git status
+  501  git add  app/components/Header.tsx
+  502  git commit -m "header aktualisiert"
+  503  git push
+  504  git status
+  505  node -V
+  506  node -v
+  507  ls
+  508  cd app
+  509  ls
+  510  cd components/
+  511  cd ..
+  512  cd -
+  513  nano Header.tsx 
+  514  git push
+  515  cd ..
+  516  touch Dockerfile
+  517  nano Dockerfile 
+  518  docker build -t kroni-gpb .
+  519  sudo snap install docker
+  520  docker build -t kroni-gpb .
+  521  sudo docker build -t kroni-gpb .
+  522  ls
+  523  sudo docker build -t kroni-gpb .
+  524  docker image ls
+  525  sudo docker image ls
+  526  git commit "docker image gebiltet"
+  527  git commit -m "Docker image gebildet"
+  528  git add  Dockerfile
+  529  git commit -m "Docker image gebildet"
+  530  git push Dockerfile
+  531  sudo git push Dockerfile
+  532  git status
+  533  git add Dockerfile
+  534  docker run -p 3000:3000 kroni-gpb
+  535  sudo docker run -p 3000:3000 kroni-gpb
+  536  git status
+  537  ls
+  538  git add Dockerfile 
+  539  git status
+  540  nano Dockerfile 
+  541  nano app/components/header.tsx
+  542  cd app/components
+  543  ls
+  544  nano Header.tsx
+  545  history
+  546  ls
+  547  cd kronis
+  548  npm run dev
+  549  cd kroni
+  550  ls
+  551  cd kroni-gpb
+  552  kroni'_gpb
+  553  cd kroni_gpb
+  554  npm run dev
+  555  cd components
+  556  ls
+  557  cd app
+  558  ls
+  559  cd ..
+  560  cd kroni
+  561  ls
+  562  cd kronis
+  563  npm run dev
+  564  Docker image ls
+  565  docker image ls
+  566  sudo docker image ls
+  567  sudo docker run -p 3000:3000 kroni-gpb
+  568  ls
+  569  docker login
+  570  docker tag kroni-gpb <emu77>/kroni-gpb:v1
+  571  docker tag kroni-gpb <emu>/kroni-gpb:v1
+  572  docker tag kroni-gpb <Emu>/kroni-gpb:v1
+  573  docker tag kroni-gpb emu77/kroni-gpb:v1
+  574  sudo docker tag kroni-gpb emu77/kroni-gpb:v1
+  575  docker push emu77/kroni-gpb:v1
+  576  sudo docker push emu77/kroni-gpb:v1
+  577  docker login
+  578  docker push emu77/kroni-gpb:v1
+  579  sudo docker login
+  580  sudo docker push emu77/kroni-gpb:v1
+  581  docker run -p 3000:3000 emu77/kroni-gpb:v1
+  582  sudo docker run -p 3000:3000 emu77/kroni-gpb:v1
+  583  cd app
+  584  ls
+  585  cd components
+  586  ls
+  587  nano Header.tsx
+  588  cd ..
+  589  nano page.tsx
+  590  cd ..
+  591  git status
+  592  history >> history.txt
