@@ -11,7 +11,7 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-blue-900 via-sky-700 to-cyan-800 text-slate-100 flex flex-col animate-gradient bg-[length:200%_200%]">
+    <main className="min-h-screen bg-gradient-to-br from-blue-900 via-sky-700 to-cyan-800 text-slate-100 flex flex-col">
       <style jsx>{`
         @keyframes gradientMove {
           0% { background-position: 0% 50%; }
