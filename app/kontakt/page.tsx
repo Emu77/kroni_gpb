@@ -1,6 +1,3 @@
-// src/app/kontakt/page.tsx
-"use client"
-
 import React from "react";
 import Layout from "../components/Layout";
 
@@ -10,12 +7,7 @@ export default function Kontakt() {
       <section className="container mx-auto px-6 py-12 flex-grow">
         <div className="bg-white/4 p-8 rounded-2xl border border-white/6 max-w-3xl mx-auto shadow-lg">
           <h3 className="text-2xl font-bold">Kontakt</h3>
-<<<<<<< HEAD
-          <p className="mt-2 text-slate-300">Schreib uns eine Nachricht oder ruf an — ich melde mich zurück.</p>
-=======
           <p className="mt-2 text-slate-300">Schreiben Sie mir eine Nachricht oder rufen Sie an — ich melde mich zurück.</p>
->>>>>>> 2c40a1e (Update page.tsx)
-
           <form className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
             <input aria-label="Name" className="p-3 rounded-lg bg-white/5 border border-white/6" placeholder="Dein Name" />
             <input aria-label="E-Mail" className="p-3 rounded-lg bg-white/5 border border-white/6" placeholder="E-Mail" />
