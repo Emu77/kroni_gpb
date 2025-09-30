@@ -23,16 +23,11 @@ export default function Home() {
   }, []);
 
   return (
-    <div
-      className="font-sans min-h-screen p-8 sm:p-20"
-      style={{
-        background: "linear-gradient(180deg,#d1fae5,#86efac)",
-        color: "#052e16",
-      }}
-    >
-      <main className="max-w-3xl mx-auto flex flex-col items-center sm:items-start gap-8">
-        {/* Bild */}
-        <div className="relative w-full max-w-[480px] aspect-[4/3] rounded-lg overflow-hidden shadow-xl">
+    <div className="font-sans min-h-screen p-6 sm:p-20 bg-gradient-to-b from-emerald-100 to-emerald-200 text-emerald-950">
+      <main className="max-w-4xl mx-auto flex flex-col items-center sm:items-start gap-12">
+        
+        {/* Bild mit Layer-Effekt */}
+        <div className="relative w-full max-w-[540px] aspect-[4/3] rounded-xl overflow-hidden shadow-2xl border border-emerald-300">
           {layers.map((i) => (
             <img
               key={i}
@@ -48,9 +43,9 @@ export default function Home() {
                 opacity: visible[i] ? 1 : 0,
                 transform: visible[i]
                   ? "translateY(0) scale(1)"
-                  : `translateY(${6 + (i % 4)}px) scale(1.02)`,
+                  : `translateY(${6 + (i % 4)}px) scale(1.01)`,
                 transition:
-                  "opacity 350ms ease-out, transform 400ms cubic-bezier(.2,.9,.2,1)",
+                  "opacity 400ms ease-out, transform 500ms cubic-bezier(.2,.8,.2,1)",
                 zIndex: i,
               }}
             />
@@ -58,29 +53,21 @@ export default function Home() {
         </div>
 
         {/* Texte */}
-        <div className="w-full text-center sm:text-left">
-          <h1
-            className="text-4xl sm:text-5xl font-extrabold"
-            style={{ color: "#065f46" }}
-          >
+        <section className="w-full text-center sm:text-left space-y-6">
+          <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight text-emerald-900">
             Willkommen auf meiner Homepage!
           </h1>
-          <p className="mt-4 text-lg max-w-xl" style={{ color: "#064e3b" }}>
-            Hallo, ich bin Emu. Hier teile ich Projekte, Ideen und alles,
-            was mich inspiriert — bunt, lebendig und natürlich.
+          <p className="text-lg sm:text-xl max-w-2xl leading-relaxed text-emerald-800">
+            Hallo, ich bin Emu. Hier teile ich Projekte, Ideen und alles, was mich inspiriert – digital, lebendig und natürlich.
           </p>
 
           {/* Buttons */}
-          <div className="mt-6 flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <a
               href="https://github.com/emu"
               target="_blank"
               rel="noreferrer"
-              className="py-3 px-6 rounded-full font-semibold shadow-lg hover:scale-105 transition-transform"
-              style={{
-                background: "#15803d",
-                color: "white",
-              }}
+              className="px-6 py-3 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-medium shadow-lg transition-all duration-200"
             >
               GitHub
             </a>
@@ -88,23 +75,16 @@ export default function Home() {
               href="https://www.bio-gut.de"
               target="_blank"
               rel="noreferrer"
-              className="py-3 px-6 rounded-full font-semibold shadow-lg hover:scale-105 transition-transform"
-              style={{
-                background: "#eab308",
-                color: "#1c1917",
-              }}
+              className="px-6 py-3 rounded-full bg-yellow-400 hover:bg-yellow-500 text-emerald-950 font-medium shadow-lg transition-all duration-200"
             >
               Meine Projekte
             </a>
           </div>
-        </div>
+        </section>
       </main>
 
       {/* Footer */}
-      <footer
-        className="mt-12 text-center"
-        style={{ color: "#064e3b", fontSize: 14 }}
-      >
+      <footer className="mt-24 border-t border-emerald-300 pt-8 text-center text-sm text-emerald-700">
         <div>© {new Date().getFullYear()} Emu. Alle Rechte vorbehalten.</div>
         <div className="mt-2 flex gap-4 justify-center">
           <a className="hover:underline" href="/impressum">
